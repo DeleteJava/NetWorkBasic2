@@ -1,0 +1,11 @@
+show ip dhcp binding    dhcp 바인딩 확인 (영역 구성 확인)
+
+
+
+커맨드 프롬포트 nslookup 
+
+>www.naver.com  클라이언트가 dns에 물어보면 주소를 던져줌
+
+permit  << 허용
+
+deny   << 거부

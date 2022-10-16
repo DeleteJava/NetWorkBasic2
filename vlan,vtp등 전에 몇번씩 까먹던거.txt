@@ -1,0 +1,29 @@
+inter r f0/3-4      <interface range 양방향 동시 작업 아래포트 - 높은포트 
+
+no vlan 숫자    << vlan 지우기
+show vtp status << vtp 보기  Configuration Revision            : 동작한 횟수 마다 숫자가 올라감  
+show vlan brief << vlan 연결 보기
+
+delete vlan.dat   << vlan 정보 싹다 날리기
+
+vlan ?
+name 하고 싶은 이름   << vlan 이름 만들기
+
+vtp mode ?    < 스위치 vtp 모드 변경  서버 , 트랜스 , 클라이언트
+
+show ip arp  << 라우터에서 날린 핑 저장   컴퓨터에선 arp -a
+
+
+clear ip ospf process  << pri 값(기본값1) or  ip 높은 쪽 반장 선출 (새로 고침)
+
+ip ospf priority 값 수정으로 dr bdr < 반장 부반장 정하기
+
+vtp 설정할때 도메인 확인  서버만 설정해놔도 서버가 클라이언트에 자동으로 던져줌
+
+도메인 이름 다르면 클라이언트가 vlan 안받아짐
+
+nslookup     www.naver.com    <<< 주소 물어봄
+
+라우팅 테이블 전부 지우기 clear ip route *
+
+ping 확인하는 법 arp -a 핑 보내서 저장된 리스트
